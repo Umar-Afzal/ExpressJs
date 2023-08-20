@@ -1,0 +1,208 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    padding: 0%;
+    margin: 0%;
+}
+/* -----Global Classes--- */
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+header{
+    background-color: #35424a;
+    color: #f4f4f4;
+    padding-top: 30px;
+    min-height: 30px;
+    border-bottom: 3px solid #e8491d;
+}
+.button-1{
+    width: 170px;
+    height: 37px;
+    font-size: 20px;
+    background-color:#e8491d;
+    border: none;
+    color: #f4f4f4;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dark{
+    padding: 15px;
+    background-color: #35424a;
+    color: #f4f4f4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+#branding img{
+    height: 80px;
+}
+header a{
+    color: #f4f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    padding: 0%;
+    margin: 0%;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+   padding-bottom: 10px;
+   font-size: 40px;
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0%;
+}
+header nav{
+float: right;
+padding: 30px;
+}
+header .current a{
+font-size: 20px;
+font-weight: bold;
+color: #e8491d;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+/* ----shoecase--- */
+#shoecase{
+    min-height: 500px;
+    background: url(showcase.jpg) no-repeat 0 -300px;
+    text-align: center;
+}
+#shoecase h1{
+    color: #f4f4f4;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 100px;
+    line-height: 1.5em;
+}
+#shoecase p{
+    color: #f4f4f4;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+/* -----Newsletter---- */
+#Newsletter{
+    padding: 15px;
+    background-color: #35424a;
+    color: #f4f4f4;
+}
+#Newsletter h1{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+}
+#Newsletter form{
+    float: right;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+#Newsletter input{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/* -----boxes----- */
+#Boxes{
+    margin-top: 30px;
+}
+#Boxes .box{
+    float: left;
+    width: 22%;
+    padding: 15px;
+    text-align: justify;
+}
+#Boxes .box img{
+    width: 90px;
+    padding-left: 70px;
+}
+footer{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #e8491d;
+    color: #f4f4f4;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* -----About Page---- */
+article#main-col{
+    float: left;
+    width: 65%;
+    text-align: justify;
+}
+article#main-col p{
+    font-size: 16px; 
+    font-weight: 600;
+    line-height: 1.0em;
+}
+article#main-col h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #e8491d;
+}
+aside#sidebar{
+    float: right;
+    margin-top: 10px;
+    width: 30%;
+ }
+ /* ----publication---- */
+ ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+    }
+    article .page-title{
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    aside#sidebar .quote input, aside#sidebar .quote textarea{
+        width: 90%;
+        padding: 5px;
+    }
+    @media(max-width:768px){
+        header#branding,
+        header nav,
+        header nav li,
+        #Newsletter h1,
+        #Newsletter form,
+        #Boxes.box,
+        article#main-col,
+        aside#sidebar{
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+        header{
+            padding-bottom: 20px;
+        }
+        #shoecase h1{
+            margin-top: 100px;
+        }
+        #Newsletter button{
+        display: block;
+        width: 100%;
+        }
+        #Newsletter form input[type="email"], .quote input, .quote textarea{
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        }

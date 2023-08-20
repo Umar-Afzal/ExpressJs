@@ -1,0 +1,9 @@
+h1{
+    color: red;
+}
+p{
+    color: black;
+    font-size: 30px;
+    background-color: gray;
+    font-weight: 600;
+}

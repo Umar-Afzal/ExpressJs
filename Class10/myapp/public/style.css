@@ -1,0 +1,184 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/* -----Global----- */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+ }
+ .button-1{
+    height: 37px;
+    background: #e8491d;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+ }
+ .dark{
+    padding: 15px;
+    background-color: #35424a;
+    color: #f4f4f4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+/* ----Header---- */
+header{
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid #e8491d;
+}
+ header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+ }
+
+ header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+ }
+ header #branding{
+    float: left;
+ }
+ header #branding h1{
+    margin: 0;
+ }
+ header nav{
+    float: right;
+    margin-top: 20px;
+ }
+ header.highlite, header.current a{
+    color:#e8491d;
+    font-weight: bold;
+ }
+ header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+ }
+ /* -----showcase---- */
+ #shoecase{
+    background-image: url(IMG-20220701-WA0010.jpg);
+    min-height: 400px;
+    text-align: center;
+    color: #ffffff;
+ }
+ #shoecase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+ }
+ #shoecase p{
+    font-size: 20px;
+    padding-top: 20px;
+ }
+ #newslatter{
+    padding: 15px;
+    color: #ffffff;
+    background-color: #35424a;
+ }
+ #newslatter h1{
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ #newslatter form{
+    float: right;
+    margin-top: 15px;
+ }
+ #newslatter input{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+ }
+ /* ----boxes---- */
+ #boxes{
+    margin-top: 30px;
+ }
+ #boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+ }
+ #boxes .box img{
+    width: 90px;
+ }
+ /* ----Sideabr--- */
+ aside#sidebar{
+    float: right;
+    margin-top: 10px;
+    width: 30%;
+ }
+ /* ----main-col---- */
+ article#main-col{
+    float: left;
+    width: 65%;
+ }
+ /* -----Services---- */
+ul#services li{
+list-style: none;
+padding: 20px;
+border: 1px solid #cccccc;
+margin-bottom: 5px;
+background-color: #e6e6e6;
+}
+article .page-title{
+    padding-left: 40px;
+    font-size: 20px;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+ footer{
+margin-top: 20px;
+padding: 15px;
+text-align: center;
+font-size: 20px;
+font-style: bold;
+color: #ffffff;
+background-color: #e8491d;
+}
+/* ----mediaquery---- */
+@media(max-width:768px){
+header#branding,
+header nav,
+header nav li,
+#newslatter h1,
+#newslatter form,
+#boxes.box,
+article#main-col,
+aside#sidebar{
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+header{
+    padding-bottom: 20px;
+}
+#shoecase h1{
+    margin-top: 100px;
+}
+#newslatter button{
+display: block;
+width: 100%;
+}
+#newslatter form input[type="email"], .quote input, .quote textarea{
+    width: 100%;
+    margin-bottom: 5px;
+}
+}
